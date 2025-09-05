@@ -19,7 +19,7 @@
 
 #define SPEEDFILTER 3
 
-//#define ADCTHROTTLE
+#define ADCTHROTTLE
 //#define FAST_LOOP_LOG
 //#define DISABLE_DYNAMIC_ADC
 
@@ -38,7 +38,7 @@
 
 // min and max values of throttle and brake signals in ADC counts
 #define THROTTLEOFFSET 45
-#define THROTTLEMAX 180
+#define THROTTLEMAX 175
 #define BRAKEOFFSET 50
 #define BRAKEMAX 160
 
